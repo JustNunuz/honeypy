@@ -1,0 +1,6 @@
+honeypy/
+venv/
+env/
+.env/
+server.key
+server.key.pub

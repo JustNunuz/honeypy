@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WordPress Login Dashboard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      .dashboard {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+      .column {
+        width: 48%;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .column h2 {
+        color: #333;
+      }
+      .column p {
+        font-size: 0.9em;
+        color: #666;
+        margin-top: -10px;
+        margin-bottom: 15px;
+      }
+      .column ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .column ul li {
+        margin: 10px 0;
+      }
+      .column ul li a {
+        text-decoration: none;
+        color: #0073aa;
+      }
+      .column ul li a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the WordPress Dashboard</h1>
+      <div class="dashboard">
+        <div class="column">
+          <h2>Settings</h2>
+          <p>
+            Customize and manage your site’s key configurations, from general
+            preferences to privacy settings.
+          </p>
+          <ul>
+            <li><a href="#">General</a></li>
+            <li><a href="#">Writing</a></li>
+            <li><a href="#">Reading</a></li>
+            <li><a href="#">Discussion</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Permalinks</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h2>Information</h2>
+          <p>
+            Access tools, manage users, and keep your site updated with the
+            latest plugins and themes.
+          </p>
+          <ul>
+            <li><a href="#">Site Health</a></li>
+            <li><a href="#">Activity</a></li>
+            <li><a href="#">Updates</a></li>
+            <li><a href="#">Plugins</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Users</a></li>
+            <li><a href="#">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
